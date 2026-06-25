@@ -1,14 +1,12 @@
 {
-  "_comment": "DRAFT manifest for the official MCP registry (modelcontextprotocol/registry). VALIDATE against the current schema at https://github.com/modelcontextprotocol/registry before submitting — field names (remotes/transport types) evolve. This server is REMOTE (hosted), not an installable package.",
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "sh.tlaloc/tlaloc-mcp",
-  "description": "Connect Claude, ChatGPT, and any AI assistant to official Mexican data: CURP (RENAPO), RFC (SAT), postal codes (SEPOMEX), phone numbers (IFT), and SPEI payment receipts/CEP (Banxico). Pay-per-call via SPEI.",
-  "version": "1.0.0",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tlaloc-sh/tlaloc-mcp",
+  "description": "MCP server for official Mexican data: CURP, RFC, postal codes, phone, and SPEI/CEP.",
   "repository": {
     "url": "https://github.com/tlaloc-sh/tlaloc-mcp",
     "source": "github"
   },
-  "websiteUrl": "https://www.tlaloc.sh",
+  "version": "1.0.0",
   "remotes": [
     {
       "type": "streamable-http",
