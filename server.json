@@ -1,12 +1,12 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.tlaloc-sh/tlaloc-mcp",
-  "description": "MCP server for official Mexican data: CURP, RFC, postal codes, phone, and SPEI/CEP.",
+  "description": "Official Mexican data for AI agents: CURP, RFC, CFDI, postal codes, phone, SPEI/CEP, DOF, geocoding.",
   "repository": {
     "url": "https://github.com/tlaloc-sh/tlaloc-mcp",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "remotes": [
     {
       "type": "streamable-http",
